@@ -52,6 +52,7 @@ The rendering plugin checks the *.imagecache file, source and destination. If th
  Ok, here you go: 
 
    &nbsp; __1.__  create an SVG file in your __files/img__ directory and name it __logo.svg__
+   
    &nbsp; __2.__ create a text file named __favicon_16x16.ico.imagecache__ in your documents directory containing:
  
 ```
@@ -61,6 +62,7 @@ src: ../files/img/logo.svg
 ```
 
    &nbsp; __3.__ copy that file to __logo_144x144.png.imagecache__, __logo_114x114.png.imagecache__, __logo_72x72.png.imagecache__ and __logo_57x57.png.imagecache__
+   
    &nbsp; __4.__ now make sure to update your page template header with the following link tags
 
 ```
