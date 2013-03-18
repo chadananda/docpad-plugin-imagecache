@@ -49,19 +49,19 @@ The rendering plugin checks the *.imagecache file, source and destination. If th
 
  You know how annoying it is to have to generate all those precomposed icons and favicons when what you should be able to do is just provide a single SVG file, right?
 
- Ok, here you go:
+ Ok, here you go: 
 
- 1. create an SVG file in your __files/img__ directory and name it __logo.svg__
- 2. create a text file named __favicon_16x16.ico.imagecache__ in your documents directory containing:
-
+   &nbsp; __1.__  create an SVG file in your __files/img__ directory and name it __logo.svg__
+   &nbsp; __2.__ create a text file named __favicon_16x16.ico.imagecache__ in your documents directory containing:
+ 
 ```
 ---
 src: ../files/img/logo.svg 
 ---
 ```
 
-3. copy that file to __logo_144x144.png.imagecache__, __logo_114x114.png.imagecache__, __logo_72x72.png.imagecache__ and __logo_57x57.png.imagecache__
-4. now make sure to update your page template header with the following link tags
+   &nbsp; __3.__ copy that file to __logo_144x144.png.imagecache__, __logo_114x114.png.imagecache__, __logo_72x72.png.imagecache__ and __logo_57x57.png.imagecache__
+   &nbsp; __4.__ now make sure to update your page template header with the following link tags
 
 ```
   <link rel="shortcut icon" href="favicon.ico">
