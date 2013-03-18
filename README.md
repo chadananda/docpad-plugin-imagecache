@@ -1,4 +1,4 @@
-## imageCache - DocPad Rendering Plugin for Images
+## Imagecache - a DocPad Rendering Plugin for Images
 
 
 ##### Note: this plugin is not yet function. I just started DocPad yesterday so help is welcome.
