@@ -1,0 +1,37 @@
+{
+    "name": "docpad-plugin-imagecache",
+    "version": "2.0.0",
+    "description": "DocPad plugin which adds the ability to resize and process images.",
+    "homepage": "https://github.com/chadananda/docpad-plugin-imagecache",
+    "keywords": [
+        "docpad",
+        "docpad-plugin",
+        "image",
+        "image transform",
+        "png",
+        "svg",
+        "image resize"
+    ],
+    "author": "Chad <chadananda@gmail.com> (notepad.com)",
+    "maintainers": [
+        "Chad <chadananda@gmail.com> (notepad.com)",
+    ],
+    "contributors": [
+        "Chad <chadananda@gmail.com> (notepad.com)",
+    ],
+    "bugs": {
+        "url": "https://github.com/chadananda/docpad-plugin-imagecache/issues"
+    },
+    "repository" : {
+        "type": "git",
+        "url": "git://github.com/chadananda/docpad-plugin-imagecache.git"
+    },
+    "engines" : {
+        "node": ">=0.6.0",
+        "docpad": "6.x"
+    },
+    "dependencies": {
+      //  "something": "1.0.x"
+    },
+    "main": "./imagecache.plugin.coffee"
+}
