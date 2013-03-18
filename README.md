@@ -51,26 +51,17 @@ The rendering plugin checks the *.imagecache file, source and destination. If th
 
  Ok, here you go:
 
- 1. create an SVG file and name it __logo.svg__
- 2. create a text file named __favicon.ico.imagecache__ containing:
+ 1. create an SVG file in your __files/img__ directory and name it __logo.svg__
+ 2. create a text file named __favicon_16x16.ico.imagecache__ in your documents directory containing:
 
 ```
 ---
-src: logo.svg
-size: 16x16
+src: ../files/img/logo.svg 
 ---
 ```
 
-3. create a text file named __logo_144x144.png.imagecache__ containing text:
-
-```
----
-src: logo.svg
----
-```
-
-4. copy that file to __logo_114x114.png.imagecache__, __logo_72x72.png.imagecache__ and __logo_57x57.png.imagecache__
-5. now make sure to update your page template header with the following link tags
+3. copy that file to __logo_144x144.png.imagecache__, __logo_114x114.png.imagecache__, __logo_72x72.png.imagecache__ and __logo_57x57.png.imagecache__
+4. now make sure to update your page template header with the following link tags
 
 ```
   <link rel="shortcut icon" href="favicon.ico">
@@ -80,5 +71,5 @@ src: logo.svg
   <link rel="apple-touch-icon-precomposed" href="logo_57x57.png">
 ```
 
-#### That's it! Now whenever you edit the logo.svg file or any of the *.imagecache files, the destination icon will automatically re-render
+##### That's it! Now whenever you edit the *logo.svg* file or any of the *.imagecache* files, the destination icons will automatically re-render
 
