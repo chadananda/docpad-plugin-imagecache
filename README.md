@@ -51,8 +51,8 @@ The rendering plugin checks the *.imagecache file, source and destination. If th
 
  Ok, here you go:
 
- 1. create an SVG file and name it "logo.svg"
- 2. create a text file named favicon.ico.imagecache containing:
+ 1. create an SVG file and name it __logo.svg__
+ 2. create a text file named __favicon.ico.imagecache__ containing:
 
 ```
 ---
@@ -61,7 +61,7 @@ size: 16x16
 ---
 ```
 
-3. create a text file named 'logo_144x144.png.imagecache' containing text:
+3. create a text file named __logo_144x144.png.imagecache__ containing text:
 
 ```
 ---
@@ -69,7 +69,7 @@ src: logo.svg
 ---
 ```
 
-4. copy that file to 'logo_114x114.png.imagecache', 'logo_72x72.png.imagecache' and 'logo_57x57.png.imagecache'
+4. copy that file to __logo_114x114.png.imagecache__, __logo_72x72.png.imagecache__ and __logo_57x57.png.imagecache__
 5. now make sure to update your page template header with the following link tags
 
 ```
